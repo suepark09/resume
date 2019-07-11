@@ -20,7 +20,7 @@ h2 {
 }
 
 h4 {
-    /* font-size: .5em; */
+    font-size: 1.7em;
 }
 
 h3 {
@@ -34,10 +34,15 @@ h3 {
 }
 
 .intro-row {
+    margin-top: 10%;
     margin-bottom: 50px;
     /* border: solid;
     border-color: red; */
     padding-bottom: 30px;
+}
+
+ul li::before {
+    color: red;
 }
 
 .container-fluid {
@@ -49,6 +54,16 @@ h3 {
     margin-right:auto;
     display:block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ button {
+     background-color: black;
+     color: white;
+     border: none; 
+     padding: 5px;
+     padding-left: 9px;
+     padding-right: 9px; 
+     font-size: 11pt;
  }
 
 .col-md-6 {
@@ -102,6 +117,10 @@ h3 {
     margin-top: 20px;
 }
 
-a:link {
+a {
     color: black !important;
+  }
+
+  a:hover {
+    color: greenyellow;
   }
