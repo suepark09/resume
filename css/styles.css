@@ -35,26 +35,34 @@ body {
  
 }
 
-.navigation ul {
+.contacts ul {
     list-style-type: none;
+    padding: 0;
+   
+
 }
 
-.navigation li {
+.contacts > li {
     display:inline-block;
-    padding: 20px;
+    border: solid;
+    border-color: red; 
+
+
 }
 
 h1 {
     font-size: 5em;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     margin-bottom: 20px;
+    color: #ADC7B8;
 }
 
 h2 {
     font-size: 2em;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    color: #ADC7B8;
 }
 
 h4 {
@@ -83,6 +91,10 @@ ul li::before {
     color: red;
 }
 
+ol {
+    padding-left: 1.2em;
+}
+
 .container-fluid {
     position: relative;
     margin-top: 13%;
@@ -105,22 +117,13 @@ ul li::before {
      font-size: 11pt;
  }
 
-.col-md-6 {
-    /* border: solid;
-    border-color: blue; */
-    padding-left:5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-  
-}
-
 .col-md-12 {
     padding-top: 20px;
     padding-left:5%;
     padding-right: 5%;
 }
 
-.col-md-4 , .col-md-8 {
+.col-md-4 , .col-md-8, .col-md-6 {
     padding-top: 20px;
     padding-left:5%;
     padding-right: 5%;
@@ -136,7 +139,7 @@ ul li::before {
 
 .projectrow-color {
     /* background-color: beige; */
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     margin-top: 70px;
     width: 100%;
 }
