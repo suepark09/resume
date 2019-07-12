@@ -1,9 +1,47 @@
+/* @media only screen and (max-width: 754px) {
+    .background {
+        background-color: #c0dbcb;
+        position: absolute;
+        height: 50vh;
+        width: 50%;
+        top: 700px;
+        right: 0;
+        z-index: -100;
+    
+    }
+
+  
+  } */
+
 body {
-    margin-top: 13%;
+    /* border: solid;
+    border-color: red; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 300; 
     font-size: 11pt;
     line-height: 18pt;
+    margin: 0;
+}
+
+.navigation {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  padding-top: 30px;
+  border: 2px solid #4CAF50;
+    z-index: 101; 
+    text-align: center;
+ 
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation li {
+    display:inline-block;
+    padding: 20px;
 }
 
 h1 {
@@ -46,7 +84,8 @@ ul li::before {
 }
 
 .container-fluid {
-    position: relative
+    position: relative;
+    margin-top: 13%;
 }
 
 .center-block {
@@ -60,9 +99,9 @@ ul li::before {
      background-color: black;
      color: white;
      border: none; 
-     padding: 5px;
-     padding-left: 9px;
-     padding-right: 9px; 
+     padding: 6px;
+     padding-left: 12px;
+     padding-right: 12px; 
      font-size: 11pt;
  }
 
@@ -70,14 +109,23 @@ ul li::before {
     /* border: solid;
     border-color: blue; */
     padding-left:5%;
-    padding-right: 5%
+    padding-right: 5%;
+    padding-bottom: 5%;
   
 }
 
 .col-md-12 {
     padding-top: 20px;
     padding-left:5%;
-    padding-right: 5%
+    padding-right: 5%;
+}
+
+.col-md-4 , .col-md-8 {
+    padding-top: 20px;
+    padding-left:5%;
+    padding-right: 5%;
+    /* border: solid;
+    border-color: red; */
 }
 
 .section-title {
@@ -87,7 +135,7 @@ ul li::before {
 }
 
 .projectrow-color {
-    background-color: beige;
+    /* background-color: beige; */
     padding-bottom: 30px;
     margin-top: 70px;
     width: 100%;
@@ -102,10 +150,13 @@ ul li::before {
     position: absolute;
     height: 70vh;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: -100;
+    top:0;
 
+}
+
+.experience {
+    background-color: lightblue;
 }
 
 .footer {
