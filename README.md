@@ -1,1 +1,1 @@
-# Basic resume created with HTML, CSS, and Bootstrap
+# Basic resume website created with HTML, CSS, and Bootstrap
