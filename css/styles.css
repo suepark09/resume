@@ -13,6 +13,10 @@
   
   } */
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 body {
     /* border: solid;
     border-color: red; */
@@ -23,31 +27,20 @@ body {
     margin: 0;
 }
 
-.navigation {
-    position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  padding-top: 30px;
-  border: 2px solid #4CAF50;
-    z-index: 101; 
-    text-align: center;
+.navigation p {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
  
 }
 
-.contacts ul {
-    list-style-type: none;
-    padding: 0;
-   
-
+.navigation {
+    text-align: center;
+    margin-top: 60px;
 }
 
-.contacts > li {
-    display:inline-block;
-    border: solid;
-    border-color: red; 
-
-
+.contacts img {
+    display: inline-block;
 }
 
 h1 {
@@ -97,7 +90,6 @@ ol {
 
 .container-fluid {
     position: relative;
-    margin-top: 13%;
 }
 
 .center-block {
@@ -115,6 +107,7 @@ ol {
      padding-left: 12px;
      padding-right: 12px; 
      font-size: 11pt;
+     outline: none;
  }
 
 .col-md-12 {
@@ -162,19 +155,35 @@ ol {
     background-color: lightblue;
 }
 
+.experience-background {
+    background-color: #F5F5F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .footer {
     background-color: #c0dbcb;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.heart-icon {
+    /* border: solid;
+    border-color: red; */
+    margin-bottom: 3px;
+    margin-right: 3px;
+    box-sizing: border-box;
 }
 
 a {
     color: black !important;
   }
 
+  button:hover {
+    background-color: #c0dbcb;
+  }
+
   a:hover {
-    color: greenyellow;
+    text-decoration: underline;
   }

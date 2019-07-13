@@ -17,16 +17,24 @@
 
     <div class="background"></div>
     <div class="container-fluid full-width">
+        <div class="navigation">
+            <p><a href="#section1">Intro</a></p>
+            <p>/</p>
+            <p><a href="#section2">Projects</a></p>
+            <p>/</p>
+            <p><a href="#section3">Experience</a></p>
+        </div>
         <div class="row intro-row">
-            <div class="col-md-6 intro">
-                <h1>Hi, my name is Sue.</h1>
+            <div class="col-md-6 intro" id="section1">
+                <h1>Hi, my name is <span style="color: white">Sue.</span></h1>
                 <p>I am an artist/designer (and aspiring developer :^) ) with a focus in interface design, 2d animation, 
                     and branding. Currently I'm on the User Experience design team at Smith and Associates, designing prototypes for the company's internal app(s) as well as doing some graphic design work for 
                     marketing. 
-                    <ul class="contacts">
-                            <li>Intro</li>
-                            <li>Projects</li>
-                    </ul>
+                    <div class="contacts">
+                         <a href="https://github.com/suepark09"><img class="contact-icon" src="img/github-icon.png" height="40px"></a>
+                         <a href="https://www.linkedin.com/in/suejeanpark/"><img class="linkedin-icon" src="img/linkedin-icon.png" height="40px"></a> 
+                         <a href="https://codepen.io/sue-park/"><img class="codepen-icon" src="img/codepen-icon.png" height="40px"></a>
+                    </div>
                 </p>
             
             </div>
@@ -36,11 +44,11 @@
         </div>
 
         <div class="projectrow-color">
-        <div class="row"><div class="col-md-12"><h2>Projects</h2></div></div>
+        <div class="row" id="section2"><div class="col-md-12"><h2>Projects</h2></div></div>
         <div class="row">
             <div class="col-md-6">
                 <h3>HTML 101</h3>
-                    <p>These are some exercises that I worked on to help me become familiar with HTML. Click on 
+                    <p>These are some exercises that I worked on to help me become more familiar with HTML. Click on 
                         "See More" to view the rest of the examples on my Github!
                     </p>
                     <ol>
@@ -50,7 +58,7 @@
                         <li><a href="https://github.com/suepark09/html-101/tree/master/example-4">Example four</a></li>
                     </ol>
                    
-                    <button a href="https://github.com/suepark09/html-101">See More</button>
+                    <a href="https://github.com/suepark09/html-101"><button>See More</button></a>
                 
             </div> 
             <div class="col-md-6">
@@ -59,8 +67,8 @@
             </div>               
         </div>
         </div>
-        
-        <div class="row"><div class="col-md-12"><h2>Work Experience</h2></div></div>
+        <div class="experience-background">
+        <div class="row" id="section3"><div class="col-md-12"><h2>Work Experience</h2></div></div>
         <div class="row">
             <div class="col-md-4">
                     <h3>Smith and Associates</h3>
@@ -76,42 +84,45 @@
             </div>
             
         </div>
-        <div class="row">
-                <div class="col-md-4">
-                        <h3>Heaven Scent Flowers & Gifts</h3>
-                        <p><i>Marketing Manager</i><br>Jul 2008 - Sept 2017</p>
-            
+       
+                <div class="row">
+                        <div class="col-md-4">
+                                <h3>Heaven Scent Flowers & Gifts</h3>
+                                <p><i>Marketing Manager</i><br>Jul 2008 - Sept 2017</p>
+                    
+                        </div>
+                        <div class="col-md-8">
+                                <ul>
+                                    <li>Created advertising material such as brochures, social media and email graphics</li>
+                                    <li>Assisted walk-in customers, took phone orders, and unloaded stocked inventory</li>
+                                    <li>Trained new hires</li>
+                                </ul>
+                        </div>
+                        
                 </div>
-                <div class="col-md-8">
-                        <ul>
-                            <li>Created advertising material such as brochures, social media and email graphics</li>
-                            <li>Assisted walk-in customers, took phone orders, and unloaded stocked inventory</li>
-                            <li>Trained new hires</li>
-                        </ul>
-                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                            <h3>Associated Students of Washington State University</h3>
+                            <p><i>Director of Communications</i><br>Aug 2015 - Dec 2015</p>
+                    
                 
+                    </div>
+                        <div class="col-md-8">
+                               
+                                <ul>
+                                    <li>Created advertising material for student events on campus</li>
+                                    <li>Designed flyers, handbills, t-shirts, and updated the organization’s social media and website</li>
+                                    <li>Managed department's budget and ordered/designed organization's promotional material</li>
+                                </ul>
+                        </div>
+                        
+                </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                    <h3>Associated Students of Washington State University</h3>
-                    <p><i>Director of Communications</i><br>Aug 2015 - Dec 2015</p>
-            
         
-            </div>
-                <div class="col-md-8">
-                       
-                        <ul>
-                            <li>Created advertising material for student events on campus</li>
-                            <li>Designed flyers, handbills, t-shirts, and updated the organization’s social media and website</li>
-                            <li>Managed department's budget and ordered/designed organization's promotional material</li>
-                        </ul>
-                </div>
-                
-        </div>
         <div class="row footer">
-            <div class="col-md-1"><a href="https://github.com/suepark09">GitHub</a></div>
-            <div class="col-md-1"><a href="https://www.linkedin.com/in/suejeanpark/">Linkedin</a></div>
-            <div class="col-md-10"></div>
+            <!-- <div class="col-md-1"><a href="https://github.com/suepark09">GitHub</a></div>
+            <div class="col-md-1"><a href="https://www.linkedin.com/in/suejeanpark/">Linkedin</a></div> -->
+            <div class="col-md-12"><img class="heart-icon" src="img/heart.png" height="18px">Made by moii</div>
         </div>
 
 
