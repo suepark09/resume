@@ -110,6 +110,10 @@ ol {
      outline: none;
  }
 
+ button:focus {
+     outline: none;
+ }
+
 .col-md-12 {
     padding-top: 20px;
     padding-left:5%;
@@ -185,5 +189,10 @@ a {
   }
 
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: white;
+  }
+
+  .navigation > p > a:hover {
+    color: white;
   }
